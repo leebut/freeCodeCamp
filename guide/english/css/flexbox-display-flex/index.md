@@ -1,3 +1,6 @@
+---
+title: Display Flex
+---
 # Display Flex
 
 A flexbox container can grow and shrink dynamically according to the size of the viewport.
