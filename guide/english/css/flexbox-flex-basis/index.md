@@ -1,3 +1,7 @@
+---
+title: Flex Basis
+---
+
 # Flex-basis
 
 To determine the initial width or height of a flex element along the main axis, we can use ```flex-basis:``` instead of ```width:``` or ```height:```. ```flex-basis:``` is dynamic, so it can shrink or grow to fit inside the flex container.
