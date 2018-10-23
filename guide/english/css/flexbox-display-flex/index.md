@@ -4,7 +4,7 @@ title: Display Flex
 # Display Flex
 
 A flexbox container can grow and shrink dynamically according to the size of the viewport.
-To transform a CSS container into a flexbox container, we need to use ```display:flex;```.
+To transform a CSS container into a flexbox container, we need to use <code>display:flex;</code>.
 Any elements nested inside the flex container will be displayed according to any attributes given to it.
 
 ![alt text](https://raw.githubusercontent.com/leebut/Flexbox-Images/master/flexcontainer.png "Flex container with nested flex items") 
@@ -47,7 +47,7 @@ HTML CODE
 Here's the result:
 ![alt text](https://raw.githubusercontent.com/leebut/Flexbox-Images/master/flex-direction-row.png "Container set to flex-direction: row;")
 
-The normal behaviour of divs is for them to stack vertically, but ```display: flex;``` lays out the divs into a single horizontal row, along what is called the **main axis**, which runs horizontally from left to right. This is because the default direction of a flex container is ```flex-direction: row;```. It is behaving in the same way as ```float: left;```.
+The normal behaviour of divs is for them to stack vertically, but <code>display: flex;</code> lays out the divs into a single horizontal row, along what is called the **main axis**, which runs horizontally from left to right. This is because the default direction of a flex container is <code>flex-direction: row;</code>. It is behaving in the same way as <code>float: left;</code>.
 
 The other flex direction is _column_, and its main axis runs vertically from top to bottom.
 The images below summarise the significance of the main axis, and they also show some alignment attributes.
