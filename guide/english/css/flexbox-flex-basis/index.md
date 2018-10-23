@@ -4,8 +4,8 @@ title: Flex Basis
 
 # Flex-basis
 
-To determine the initial width or height of a flex element along the main axis, we can use ```flex-basis:``` instead of ```width:``` or ```height:```. ```flex-basis:``` is dynamic, so it can shrink or grow to fit inside the flex container.
-```flex-basis:``` can be set as a value, e.g. ```200px;``` ```20vw;``` ```50vh;``` or ```auto```. Auto will assess the contents of the flex item and expand or contract with them. Example 1 shows a nested div with ```flex-basis: 20vw;```, while the second and third use ```flex-basis: auto;```.
+To determine the initial width or height of a flex element along the main axis, we can use <code>flex-basis:</code> instead of <code>width:</code> or <code>height:</code>. <code>flex-basis:</code> is dynamic, so it can shrink or grow to fit inside the flex container.
+<code>flex-basis:</code> can be set as a value, e.g. <code>200px;</code> <code>20vw;</code> <code>50vh;</code> or <code>auto</code>. Auto will assess the contents of the flex item and expand or contract with them. Example 1 shows a nested div with <code>flex-basis: 20vw;</code>, while the second and third use <code>flex-basis: auto;</code>.
 
 **Example 1:**
 ```css
