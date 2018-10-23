@@ -13,7 +13,7 @@ Any elements nested inside the flex container will be displayed according to any
 CSS CODE
 --------
 
-```
+```css
 .container {
   display: flex;
   background: yellow;
@@ -28,7 +28,7 @@ CSS CODE
 ```
 HTML CODE
 ---------
-```
+```html
 <div class="container">
   <div class="box">
     <p>Box 1</p>
