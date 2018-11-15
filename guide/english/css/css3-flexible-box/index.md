@@ -6,6 +6,8 @@ The Flexbox model provides for an efficient way to lay out, align, and distribut
 
 The most important idea behind the Flexbox model is that the parent container can alter its items' width/height/order to best fill the available space. A flex container expands items to fill available free space, or shrinks them to prevent overflow.<sup>1</sup>
 
+Flexbox can be applied to any container-like element, such as, but not limited to ```<div>```, ```<header>```, ```<footer>```, and even ```<form>```. Flex containers contain flex items whose layout on the screen is determined by the direction of the flex direction (row or column). Flex items are typically visual elements, such as ```<p>```, ```<img>```, ```<h1> - <h6>```, among others.
+
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
 #### Basic usage
